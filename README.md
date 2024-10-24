@@ -16,5 +16,10 @@ sudo apt install .wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
 sudo wget https://github.com/GaboQuesada/wkhtmltopdfubbunto22.0odoo17/raw/main/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
+sudo apt-get update
+sudo apt-get install -y xfonts-75dpi xfonts-base
+
+apt --fix-broken install
+
 sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
