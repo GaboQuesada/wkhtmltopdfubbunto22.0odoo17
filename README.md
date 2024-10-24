@@ -4,14 +4,21 @@ primero verificar cual tiene / si es instalada desde el script
 
 wkhtmltopdf --version
 
+
+ELIMINANDO 
 sudo apt-get remove --purge wkhtmltopdf
 
+sudo dpkg -r wkhtmltox
 
+sudo apt-get purge wkhtmltox
 
-sudo wget https://github.com/GaboQuesada/wkhtmltopdfubbunto22.0odoo17/main/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+sudo apt-get autoremove
+sudo apt-get clean
 
+INSTALACION
 
-sudo apt install .wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+EN /usr/bin
+
 
 
 sudo wget https://github.com/GaboQuesada/wkhtmltopdfubbunto22.0odoo17/raw/main/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
@@ -22,4 +29,11 @@ sudo apt-get install -y xfonts-75dpi xfonts-base
 apt --fix-broken install
 
 sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+
+VERIFICAR
+wkhtmltopdf --version
+
+sudo find / -name wkhtmltopdf
+/usr/local/bin/wkhtmltopdf --version
+
 
