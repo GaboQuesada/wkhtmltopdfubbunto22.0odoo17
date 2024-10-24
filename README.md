@@ -1,5 +1,8 @@
 
 
+conocer version de ubunto   lsb_release -a
+
+
 primero verificar cual tiene / si es instalada desde el script
 
 wkhtmltopdf --version
