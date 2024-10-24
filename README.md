@@ -31,9 +31,13 @@ apt --fix-broken install
 sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
 VERIFICAR
+
 wkhtmltopdf --version
 
+
 sudo find / -name wkhtmltopdf
+
+
 /usr/local/bin/wkhtmltopdf --version
 
 
