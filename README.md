@@ -37,6 +37,9 @@ wkhtmltopdf --version
 
 sudo find / -name wkhtmltopdf
 
+sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
+
+
 
 /usr/local/bin/wkhtmltopdf --version
 
