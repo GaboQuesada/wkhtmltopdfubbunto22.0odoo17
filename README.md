@@ -31,7 +31,7 @@ sudo wget https://github.com/GaboQuesada/wkhtmltopdfubbunto22.0odoo17/raw/main/w
 
 ubunto 20.04
 
-sudo wget https://github.com/GaboQuesada/wkhtmltopdfubbunto22.0odoo17/raw/main/wkhtmltox_0.12.6-1.focal_amd64.deb
+sudo wget https://github.com/GaboQuesada/wkhtmltopdfubbunto22.0odoo17/raw/main/wkhtmltox_0.12.5-1.focal_amd64.deb
 
 sudo apt-get update
 sudo apt-get install -y xfonts-75dpi xfonts-base
@@ -44,7 +44,7 @@ sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
 ubunto 20.04
 
-sudo dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
+sudo dpkg -i wkhtmltox_0.12.5-1.focal_amd64.deb
 
 VERIFICAR
 
