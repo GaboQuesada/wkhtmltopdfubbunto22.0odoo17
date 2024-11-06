@@ -1,3 +1,5 @@
+Ubunto: 22.04 jammy / 20.04 focal / 18.04 bionic / 16.04 xenial
+
 
 
 conocer version de ubunto   lsb_release -a
