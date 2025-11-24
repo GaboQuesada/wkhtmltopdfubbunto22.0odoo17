@@ -1,4 +1,4 @@
-Ubunto: 22.04 jammy / 20.04 focal / 18.04 bionic / 16.04 xenial
+Ubunto: 24/22.04 jammy / 20.04 focal / 18.04 bionic / 16.04 xenial
 
 
 
@@ -25,7 +25,7 @@ INSTALACION
 EN /usr/bin
 
 
-ubunto 22.04
+ubunto 24/22.0
 
 sudo wget https://github.com/GaboQuesada/wkhtmltopdfubbunto22.0odoo17/raw/main/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
@@ -38,7 +38,7 @@ sudo apt-get install -y xfonts-75dpi xfonts-base
 
 apt --fix-broken install
 
-ubunto 22.04
+ubunto 24/22.0
 
 sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
